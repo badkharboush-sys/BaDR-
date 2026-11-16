@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8E6A0"/><stop offset="0.42" stop-color="#DDB94F"/><stop offset="0.78" stop-color="#A67E25"/><stop offset="1" stop-color="#6F5114"/></linearGradient>
+    <radialGradient id="innerGrad" cx="0.5" cy="0.35" r="0.75"><stop offset="0" stop-color="#1D1B22"/><stop offset="1" stop-color="#09090C"/></radialGradient>
+    <radialGradient id="moonGrad" cx="0.38" cy="0.32" r="0.8"><stop offset="0" stop-color="#FFF6D2"/><stop offset="0.38" stop-color="#F3D57E"/><stop offset="0.72" stop-color="#D4AF37"/><stop offset="1" stop-color="#93711D"/></radialGradient>
+    <radialGradient id="bgGrad" cx="0.5" cy="0.42" r="0.7"><stop offset="0" stop-color="#1C1912"/><stop offset="1" stop-color="#08080A"/></radialGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#bgGrad)"/>
+  <path d="M50 5 C62 11.5 75.5 13.5 88.5 13.5 L88.5 45 C88.5 70 72 86.5 50 95.5 C28 86.5 11.5 70 11.5 45 L11.5 13.5 C24.5 13.5 38 11.5 50 5 Z" fill="url(#shieldGrad)"/>
+  <path d="M50 11.6 C61 17 72.4 19 82.6 19.3 L82.6 45.2 C82.6 66.2 68.8 80.6 50 88.8 C31.2 80.6 17.4 66.2 17.4 45.2 L17.4 19.3 C27.6 19 39 17 50 11.6 Z" fill="url(#innerGrad)"/>
+  <path d="M26.5 48 A23.5 23.5 0 1 0 73.5 48 A23.5 23.5 0 1 0 26.5 48 Z" fill="url(#moonGrad)"/>
+  <path d="M50 30.2 C51.2 35.6 62.2 40.2 62.2 51.2 C62.2 59.6 56.8 65.4 50 65.4 C43.2 65.4 37.8 59.6 37.8 51.2 C37.8 40.2 48.8 35.6 50 30.2 Z" fill="none" stroke="#17120A" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 38.6 C50.9 42.6 57.2 45.6 57.2 52.4 C57.2 57.8 54 61 50 61 C46 61 42.8 57.8 42.8 52.4 C42.8 45.6 49.1 42.6 50 38.6 Z" fill="none" stroke="#17120A" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 46.4 C50.5 48.8 52.7 50.2 52.7 53.6 C52.7 55.9 51.6 57.2 50 57.2 C48.4 57.2 47.3 55.9 47.3 53.6 C47.3 50.2 49.5 48.8 50 46.4 Z" fill="none" stroke="#17120A" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 30.2 C50.2 27.8 51.8 26.2 54.6 25.6" fill="none" stroke="#17120A" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 22.5 L77.1 25.4 L80 26.5 L77.1 27.6 L76 30.5 L74.9 27.6 L72 26.5 L74.9 25.4 Z" fill="#F1D27A"/>
+  <path d="M24.5 30 L25.2 31.8 L27 32.5 L25.2 33.2 L24.5 35 L23.8 33.2 L22 32.5 L23.8 31.8 Z" fill="#F1D27A" opacity="0.7"/>
+</svg>
